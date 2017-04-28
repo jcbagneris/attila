@@ -779,6 +779,12 @@ img {
     margin: 2.5em auto
 }
 
+.inlineimg {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
 .clear {
     clear: both
 }
@@ -1428,7 +1434,6 @@ img {
     color: #f26a3d
 }
 
-.post-content img,
 .post-content .fluid-width-video-wrapper {
     max-width: none;
     width: 110%;
