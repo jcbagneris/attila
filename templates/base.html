@@ -81,7 +81,7 @@
   <![endif]-->
   {% endblock head %}
 </head>
-<!-- TODO : Body class -->
+
 <body class="home-template">
 
   {% include 'partials/navigation.html' %}
@@ -91,8 +91,6 @@
   <section id="wrapper">
     <a class="hidden-close"></a>
       {% block content %}{% endblock content %}
-      <!-- TODO : Body class -->
-    <div id="body-class" style="display: none;" class="{{body_class}}"></div>
   
     <footer id="footer">
       <div class="inner">
